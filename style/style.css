@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1500px;
+}
+
+/* HEADER  */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+
+  padding: 55px 0px 55px;
+}
+
+/* LOGO  */
+
+
+.logo__cloud {
+  position: relative;
+}
+
+.logo__bitcoin {
+  position: absolute;
+  left: 14px;
+  top: 62px;
+}
+
+/* NAVIGATION  */
+
+.header__nav {
+  flex-basis: 30%;
+}
+
+.header__list {
+  display: flex;
+  justify-content: space-between;
+}
+.header__item {
+  list-style-type: none;
+}
+.header__link {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+/* BUTTONS  */
+
+.buttons {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  flex-basis: 25%;
+}
+.sell__bitcoin {
+  
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  color: #333;
+}
+.Dropdown_Button {
+  position: absolute;
+  right: 220px;
+  top: 8px;
+}
+.login__botton {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  color: #fff;
+  padding: 17px 57px;
+  margin-top: -20px;
+  border-radius: 100px;
+
+  background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+}
